@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .body {
+    background-color: #573232;
+    color: #ffadad
+  }
+  /* Style the header with a grey background and some padding */
+  .title {
+    overflow: hidden;
+    background-color: #c3a7a7;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .title a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ff9e9e;
+  }
+  
+  .header {
+    overflow: hidden;
+    color: #ff5c5c;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  /* Style buttons */
+  .btn {
+    background-color: #4d0000;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
